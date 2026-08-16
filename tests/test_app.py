@@ -2,9 +2,9 @@ import sys
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "app"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "app"))  # noqa: E402
 
-from app import app
+from app import app  # noqa: E402
 
 
 def test_home_page():
