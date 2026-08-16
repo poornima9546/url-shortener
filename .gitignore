@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+urls.db
+.pytest_cache/
+.env
