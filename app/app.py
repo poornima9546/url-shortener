@@ -153,11 +153,7 @@ def shorten_url():
         original_url,
     )
 
-    short_url = url_for(
-        "redirect_url",
-        short_code=short_code,
-        _external=True,
-    )
+    short_url = f"http://localhost:8080/{short_code}"
 
     return render_template_string(
         """
