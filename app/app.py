@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 
 import pymysql
 import redis
-from flask import Flask, redirect, render_template_string, request, url_for
+from flask import Flask, request, redirect, render_template_string
 
 
 app = Flask(__name__)
